@@ -7,7 +7,7 @@ The list of libraries that were used to run the parser
 
 	json
   	yt_dpl
-  	urllib.request
+  	urllib
 
 # How it works
 
