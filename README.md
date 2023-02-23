@@ -3,6 +3,8 @@ Parsing videos from YouTube, information about them and statistics into a separa
 
 # Libraries
 
+The list of libraries that were used to run the parser
+
 	json
   	yt_dpl
   	urllib.request
