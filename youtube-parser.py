@@ -1,9 +1,11 @@
 import json
 import urllib.request
+from yt_dlp import YoutubeDL
 
 
 channel_id = input('Past channel ID: ')
 api_key = "your Google Cloud API key"
+
 
 # Getting all videos from channel
 
@@ -37,10 +39,7 @@ def get_videos(channel_id):
 # /. Getting all videos from channel
 
 
-
-from yt_dlp import YoutubeDL
-videos = get_videos(channel_id)
-
+videos = get_videos(channel_id) # all videos from the channel
 
 # Creating a file that stores data about each video
 with open(f"YT-channel-videos_{channel_id}.txt", 'w') as channel_file:
